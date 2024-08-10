@@ -7,7 +7,7 @@ class TextDisplayApp (QMainWindow):
         
         
         # Set the window properties (title and initial size)
-        self.setWindowTitle("Text Display Application")
+        self.setWindowTitle("Hiện thị tên")
         self.setGeometry (100, 100, 400, 200) # (x, y, width, height)
         
         
@@ -18,7 +18,7 @@ class TextDisplayApp (QMainWindow):
         
         # Create widgets (QLineEdit, QPushButton, and QLabel)
         self.text_edit = QLineEdit()
-        self.display_button = QPushButton("Click here to display Text")
+        self.display_button = QPushButton("Hiện thị")
         self.result_label = QLabel("")
         
         # Create a vertical layout
